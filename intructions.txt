@@ -1,0 +1,11 @@
+python3 -m venv .venv "creal un virtual enviroment para trabajar"
+source .venv/bin/activate "activa el venv"
+pip3 install ... "para instalar librerias"
+pip3 freeze > requirements.txt "crea un archivo con las librerias presentes en el venv"
+
+
+Cada vez que vaya a utilizar la applicación
+
+export FLASK_APP=aaplication.py
+export FLASK_ENV=development
+flask run
